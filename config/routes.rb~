@@ -1,0 +1,9 @@
+Task1::Application.routes.draw do    
+  
+  root users#home
+
+#  get "users/home"
+  get "users/profile"
+  get "users/contact"
+
+end
